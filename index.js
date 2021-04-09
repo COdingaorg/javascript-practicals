@@ -47,7 +47,9 @@ if(num>0){
 }else if(num==0){
   alert(0);
 };
-*/
+
 let num=prompt("Enter an number...", ' ');
 let notif=(num>0) ? 1: (num<0) ? -1: (num==0) ? 0: 'What an unusual number';
 alert(notif);
+alert(alert(1)||2||alert(3));
+alert(alert(1)&&2&&alert(3));*/
