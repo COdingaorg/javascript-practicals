@@ -8,7 +8,7 @@ console.log('map results')
 tuks.map(function(tuk){
   console.log(tuksAdded)
   return tuksAdded+=20
-});*/
+});*
 let numbers = [20, 30, 40, 50];
 let numbersAdded = [];
 numbers.map(function(number){
@@ -17,4 +17,4 @@ numbers.map(function(number){
   return numbersAdded.push(number +=1);
   
 })
-
+*/
